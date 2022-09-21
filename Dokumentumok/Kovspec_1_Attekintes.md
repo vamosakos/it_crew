@@ -1,0 +1,5 @@
+# Követelmény specifikáció
+
+## Áttekintés
+Cégünk terjeszkedni szeretne az internetes térben. Egy olyan internetes weboldal létrehozása a célunk, ami által bevonjuk az olvasóinkat a már meglévő és az elkövetkezendő recepteskönyveinkbe.
+Egy pályázat keretében indítjuk el az oldalt, ahol bárki számára elérhetővé válik az általuk különlegesnek vélt sütemény receptjeinek megosztása. A csak szimplán érdeklődők regisztráció nélkül is könnyedén tudnak böngészni a különféle sütemény receptek között. Továbbá egy egyszerű gombnyomással megoldható a receptek lementése/nyomtatása. A regisztrált felhasználóknak lehetősége van a különféle sütemény receptek feltöltésére, amelyet más felhasználók értékelni is tudnak egy "like" gomb segítségével. Később ezen likeok felhasználásával lehetőség nyílik rendezi népszerűség alapján az oldalon megjelenő recepteket. Ennek különlegessége pedig, hogy a hónap végén a legnépszerűbb sütemény receptjét felvisszük a következő kiadásunkba. Az weboldal nevének beszédesen a "sutippek.hu" (sütippek) címet képzeltük el.
