@@ -1,0 +1,3 @@
+# Jelenlegi helyzet
+
+A megrendelő szeretné egy helyen látni a különböző recepteket, a mi feladatunk ennek a megvalósítása. Az oldal tartalma elérhető lesz regisztráció nélkül is. A weboldal könnyű kezelése miatt, nem kell órákat keresni egy adott receptet, hanem ezen az oldalon egyszerűen és gyorsan meglehet találni. Fontos megemlíteni, hogy nem csak keresésre lehet használni az oldalt, hanem megosztani a saját, már bevált recepteket, ötleteket. Ezek mellett tervezünk egy olyan funkciót is, ami arról szól, hogy lehetőség lesz receptek kedvelésére, amivel könnyen lehet rendezni a recepteket, mondjuk a legkedveltebbek szerint. A hónap végén a legtöbb kedveléssel rendelkező, bekerül a következő havi kiadásunkba. 
