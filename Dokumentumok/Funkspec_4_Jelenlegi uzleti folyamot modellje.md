@@ -1,0 +1,3 @@
+# Jelenlegi üzleti folyamatok modellje
+
+A mai világban már kevésbé elterjedt a receptek könyvbe való gyüjtése. Manapság, ha gyorsan akarunk megtalálni egy adott receptet, akkor inkább ki használjuk az internet adta lehetőségeket. Ami azt jelenti, hogy az emberek az interneten vagy különböző alkalmazásokon keresztül gyüjtik be az új ötleteiket vagy találnak már bevált régi recepteket. Pont erről szól a mi weboldalunk is, ahol számtalan receptet fel lehet tölteni vagy meg lehet találni és aztán elmenteni, hogy az adott illető később is feltudja használni.
