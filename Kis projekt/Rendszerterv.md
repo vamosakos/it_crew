@@ -85,14 +85,19 @@ Nincsenek megvásárolt komponenseink.
 
 ## Fejlesztői eszközök:
 
-Sublime Text
-Visual Studio Code
+- Sublime Text
+- Visual Studio Code
 
 
 ## Architekturális terv
 
 A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk.
 Továbbá a weboldalon látható lapok, valamint a bejelentkező és a regisztráció validációját php és javascripttel oldjuk meg. 
+
+
+## Adatbázis terv
+
+![alt text](https://media.discordapp.net/attachments/323508728508710913/1026806858595434507/Adatbazis_terv.PNG?width=955&height=630)
 
 
 ## Implementációs terv

@@ -66,6 +66,14 @@ A jogosultságok tehát mindössze két fajta személyt különböztetnek meg; a
 - A feltöltés gomb segítségével tudjuk közzétenni a receptünket
 
 
+## Képernyő tervek
+
+![alt text](https://media.discordapp.net/attachments/323508728508710913/1026808340141060166/Kepernyoterv_01.PNG?width=1071&height=630)
+![alt text](https://media.discordapp.net/attachments/323508728508710913/1026808340812157008/Kepernyoterv_02.PNG?width=1102&height=630)
+![alt text](https://media.discordapp.net/attachments/323508728508710913/1026808341646807111/Kepernyoterv_03.PNG)
+![alt text](https://media.discordapp.net/attachments/323508728508710913/1026808339629363291/Kepernyoterv_04.PNG)
+
+
 ## Forgatókönyv
 **1.** A felhasználó a kezdőőoldalon találkozik egy kiemelt recepttel és itt tud keresni a receptek között, tud receptet felölteni, illetve itt tud bejelentkezni és regisztrálni. Ezek a gombot az oldal fejlécében elérhetőek lesznek mindvégig.
 

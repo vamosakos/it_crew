@@ -55,6 +55,10 @@ A projekt célja az olvasóink bevonása a szezonális könyveink kiadásába é
 Továbbá lehetőség lesz receptek kedvelésére, így az adott hónap végén a legtöbb kedveléssel szolgáló felhasználó bekerül a következő kiadásba.
 
 
+## Igényelt üzleti folyamatok modellje
+![alt text](https://media.discordapp.net/attachments/323508728508710913/1026807442425794591/Igenyelt_uzleti_folyamatok.PNG?width=620&height=630)
+
+
 ## Követelménylista
 | Modul | ID | Név | v. | Kifejtés |
 |---|---|---|---|---|
