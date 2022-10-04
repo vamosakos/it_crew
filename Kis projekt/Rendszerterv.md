@@ -23,7 +23,7 @@ Madarasi Gábor
 | Feltöltés oldal | A feltöltő oldal               | 2         | 2       | 2                | 0          | 1             
 
 ## Üzleti feladatok modellje
-![alt text](/home/madarasi/Documents/Megnevezetlen_diagram.drawio.png)
+![alt text](https://media.discordapp.net/attachments/323508728508710913/1026805600681738321/uzleti_folyamatok_modellje.png)
 
 ## Követelmények
 
