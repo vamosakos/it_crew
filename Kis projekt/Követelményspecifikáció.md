@@ -56,7 +56,7 @@ Továbbá lehetőség lesz receptek kedvelésére, így az adott hónap végén 
 
 
 ## Igényelt üzleti folyamatok modellje
-![alt text](https://media.discordapp.net/attachments/323508728508710913/1026807442425794591/Igenyelt_uzleti_folyamatok.PNG?width=620&height=630)
+![üzleti folyamatok modellje](https://media.discordapp.net/attachments/323508728508710913/1026807442425794591/Igenyelt_uzleti_folyamatok.PNG?width=620&height=630)
 
 
 ## Követelménylista

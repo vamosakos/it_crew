@@ -68,10 +68,10 @@ A jogosultságok tehát mindössze két fajta személyt különböztetnek meg; a
 
 ## Képernyő tervek
 
-![alt text](https://media.discordapp.net/attachments/323508728508710913/1026808340141060166/Kepernyoterv_01.PNG?width=1071&height=630)
-![alt text](https://media.discordapp.net/attachments/323508728508710913/1026808340812157008/Kepernyoterv_02.PNG?width=1102&height=630)
-![alt text](https://media.discordapp.net/attachments/323508728508710913/1026808341646807111/Kepernyoterv_03.PNG)
-![alt text](https://media.discordapp.net/attachments/323508728508710913/1026808339629363291/Kepernyoterv_04.PNG)
+![Képernyőterv főmenu1](https://media.discordapp.net/attachments/323508728508710913/1026808340141060166/Kepernyoterv_01.PNG?width=1071&height=630)
+![Képernyőterv főmenu2](https://media.discordapp.net/attachments/323508728508710913/1026808340812157008/Kepernyoterv_02.PNG?width=1102&height=630)
+![Képernyőterv bejelentkezés](https://media.discordapp.net/attachments/323508728508710913/1026808341646807111/Kepernyoterv_03.PNG)
+![Képernyőterv regisztráció](https://media.discordapp.net/attachments/323508728508710913/1026808339629363291/Kepernyoterv_04.PNG)
 
 
 ## Forgatókönyv
