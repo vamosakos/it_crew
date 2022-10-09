@@ -19,7 +19,7 @@
             </tr>
             <tr>
                 <td>Jelszó*:</td>
-                <td><input type="password" name="jelszo" required/></td>
+                <td><input type="password" name="jelszo" placeholder="**********" required/></td>
             </tr>
             <tr>
                 <td>Email*:</td>

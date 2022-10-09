@@ -12,11 +12,23 @@
 
         $nev = $_POST['nev'];
         $leiras = $_POST['leiras'];
-        
-        $query = "INSERT INTO recipes (name, details) VALUES ('$nev', '$leiras')";
+        $fajlnev = basename($_FILES['kep']['name']);
+        $fajltipus = pathinfo($fajlnev, PATHINFO_EXTENSION);
+        $elfogadotttipus = array('jpg', 'png', 'jpeg', 'gif');
+
+        session_start();
+
+        $id = $_SESSION['id'];
+
+        if (in_array($fajltipus, $elfogadotttipus)) {
+        $kep = $_FILES['kep']['tmp_name'];
+        $keptartalma = addslashes(file_get_contents($kep));
+        $query = "INSERT INTO recipes (name, details, picture, user_id) VALUES ('$nev', '$leiras', '$keptartalma', '$id')"; /*2*/
         
         $result = mysqli_query($con, $query);
 
+
         header('Location: index.php');
         }
+    }
 ?>
