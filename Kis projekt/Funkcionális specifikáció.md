@@ -1,12 +1,21 @@
 # Funkcionális specifikáció
 
 ## Áttekintés
-A kiadó már régóta ismert és híres a kiadott könyveiről. Ezeket a könyveket és azok receptjeit szeretnék elérhetővé tenni digitálisan is a nagyvilág számára, illetve az olvasók számára is lehetőséget biztosítanak receptjeik feltöltéséhez és megosztásához, amik akár bele is kerülhetnek a jövőbeli kiadásaikba.
-A receptekhez bárki hozzáférhet és azokat ki is nyomtathatja, le is töltheti az eszközére, viszont a regisztrált felhasználók képesek szavazni más felhasználói receptekre is, amiket szavazatszám alapján rendezni is lehet. A hónap legnépszerűbb receptjét beleírják a következő kiadásukba. A weboldal tervezett neve: sutippek.hu.
+A kiadó már régóta ismert és híres a kiadott könyveiről. 
+Ezeket a könyveket és azok receptjeit szeretnék elérhetővé tenni digitálisan is a nagyvilág számára, illetve az olvasók számára is lehetőséget biztosítanak receptjeik feltöltéséhez és megosztásához, amik akár bele is kerülhetnek a jövőbeli kiadásaikba.
+A receptekhez bárki hozzáférhet és azokat ki is nyomtathatja, le is töltheti az eszközére, viszont a regisztrált felhasználók képesek szavazni más felhasználói receptekre is.
+Ezenfelül lehetséges lesz a megjelenő süteményeket név alapján is. 
+A hónap legnépszerűbb receptjét beleírják a következő kiadásukba. 
+A weboldal tervezett neve: sutippek.hu.
 
 
 ## Jelenlegi helyzet
-A megrendelő szeretné egy helyen látni a különböző recepteket, a mi feladatunk ennek a megvalósítása. Az oldal tartalma elérhető lesz regisztráció nélkül is. A weboldal könnyű kezelése miatt, nem kell órákat keresni egy adott receptet, hanem ezen az oldalon egyszerűen és gyorsan meglehet találni. Fontos megemlíteni, hogy nem csak keresésre lehet használni az oldalt, hanem megosztani a saját, már bevált recepteket, ötleteket. Ezek mellett tervezünk egy olyan funkciót is, ami arról szól, hogy lehetőség lesz receptek kedvelésére, amivel könnyen lehet rendezni a recepteket, mondjuk a legkedveltebbek szerint. A hónap végén a legtöbb kedveléssel rendelkező, bekerül a következő havi kiadásukba.
+A megrendelő szeretné egy helyen látni a különböző recepteket, a mi feladatunk ennek a megvalósítása. 
+Az oldal tartalma elérhető lesz regisztráció nélkül is. 
+A weboldal könnyű kezelése miatt, nem kell órákat keresni egy adott receptet, hanem ezen az oldalon egyszerűen és gyorsan meglehet találni. 
+Fontos megemlíteni, hogy nem csak keresésre lehet használni az oldalt, hanem megosztani a saját, már bevált recepteket, ötleteket. 
+Ezek mellett tervezünk egy olyan funkciót is, ami arról szól, hogy lehetőség lesz receptek kedvelésére, illetve név alapján rendezésre. 
+A hónap végén a legtöbb kedveléssel rendelkező, bekerül a következő havi kiadásukba.
 
 
 ## Követelménylista
@@ -24,12 +33,15 @@ A megrendelő szeretné egy helyen látni a különböző recepteket, a mi felad
 | Feltöltés | K3 | Recept feltöltése | 1.0 | A regisztrált felhasználóknak lehetőségük van a recept feltöltésére. Ezt a recept feltöltése helyen talált szövegdobozba felvitt gépelt karakterekkel tehető meg. |
 | Feltöltés | K4 | Kép feltöltése | 1.0 | A kép feltöltés, a recept feltöltésére használt kitöltött szövegdoboz alatt foglal helyet, ahol a felhasználó opcionálisan tölthet fel képet a már elkészíett süteményéről. |
 | Kedvelés | K5 | Like gomb | 1.0 | Minden recepthez hozzájárul egy gomb, melynek megnyomásával a tetszésüket fejezhetik ki regisztrált felhasználók. |
-| Rendezés | K6 | Rendezés | 1.0 | A rendezés gomb segítségével lehetőség van receptek rendezésére likeok / kedvelések szerint (Z-A) - csökkenően |
+| Rendezés | K6 | Rendezés | 1.0 | A rendezés gomb segítségével lehetőség van receptek rendezésére név szerint (A-Z) - növekvően |
 | Nyomtatás | K7 | Nyomtatás | 1.0 | A nyomtatás gomb lehetőséget nyújt az adott képernyőn elhelyezkedő receptek nyomtatására, letöltésére PDF formátumban. |
 
 
 ## Jelenlegi üzleti folyamatok modellje
-A mai világban már kevésbé elterjedt a receptek könyvbe való gyüjtése. Manapság, ha gyorsan akarunk megtalálni egy adott receptet, akkor inkább ki használjuk az internet adta lehetőségeket. Ami azt jelenti, hogy az emberek az interneten vagy különböző alkalmazásokon keresztül gyüjtik be az új ötleteiket vagy találnak már bevált régi recepteket. Pont erről szól a mi weboldalunk is, ahol számtalan receptet fel lehet tölteni vagy meg lehet találni és aztán elmenteni, hogy az adott illető később is feltudja használni.
+A mai világban már kevésbé elterjedt a receptek könyvbe való gyüjtése.
+Manapság, ha gyorsan akarunk megtalálni egy adott receptet, akkor inkább ki használjuk az internet adta lehetőségeket. 
+Ami azt jelenti, hogy az emberek az interneten vagy különböző alkalmazásokon keresztül gyüjtik be az új ötleteiket vagy találnak már bevált régi recepteket. 
+Pont erről szól a mi weboldalunk is, ahol számtalan receptet fel lehet tölteni vagy meg lehet találni és aztán elmenteni, hogy az adott illető később is feltudja használni.
 
 
 ## Igényelt üzleti folyamatok
@@ -47,10 +59,12 @@ A mai világban már kevésbé elterjedt a receptek könyvbe való gyüjtése. M
 
 
 ## Használati esetek
-Az oldalra alapértelmezetten látogatóként/vendégként (guest) csatlakozunk. A vendég számára megjelenik a főmenü a
-legördülő sütemény receptekkel együtt. Itt lehetőségünk van rendezni a süteményeket népszerűség szerint, illetve
-nyomtatni a recepteket. Sütiket feltölteni és likeolni, azonban csak érvényes, regisztrált fiókkal rendelkezők képesek. Ehhez pedig a regisztrációs fül alatt a megfelelő adatokkal kitöltve juthatnak el. A regisztráció befejezése
-után egy gyors bejelentkezést követően nyílik meg számunkra a feltöltés és kedvencekhez adás/like gomb használata.
+Az oldalra alapértelmezetten látogatóként/vendégként (guest) csatlakozunk. 
+A vendég számára megjelenik a főmenü a legördülő sütemény receptekkel együtt. 
+Itt lehetőségünk van rendezni a süteményeket név alapján, illetve nyomtatni a recepteket. 
+Sütiket feltölteni és likeolni, azonban csak érvényes, regisztrált fiókkal rendelkezők képesek. 
+Ehhez pedig a regisztrációs fül alatt a megfelelő adatokkal kitöltve juthatnak el.
+A regisztráció befejezése után egy gyors bejelentkezést követően nyílik meg számunkra a feltöltés és kedvencekhez adás/like gomb használata.
 A jogosultságok tehát mindössze két fajta személyt különböztetnek meg; a látogatót és a regisztrált felhasználót.
 
 
@@ -83,12 +97,13 @@ A jogosultságok tehát mindössze két fajta személyt különböztetnek meg; a
 
 **4.** Az első pontnál említett regisztrációs gombra kattintva egy e-mail cím, egy felhasználónév és egy jelszó megadása után tud fiókot létrehozni (vagy meglévő fiók esetén a belépés gombbal és az utóbbi kettő megadásával) be tud lépni a létező fiókjába, ami után a recept címe alatti szív gombbal tud szavazni a receptre és az az mellett levő szám eggyel növekszik.
 
-**5.** Belépés után a felhasználó a feltöltés gombra kattintva tud a receptjének címet adni, az összetevőket és az elkészítést beírni és képet csatolni. Az oldal alján a Publikálás gombra kattintva (ellenőrzés után) megjelenik a recept az oldalon.
+**5.** Belépés után a felhasználó a feltöltés gombra kattintva tud a receptjének címet adni, az összetevőket és az elkészítést beírni és képet csatolni. 
+Az oldal alján a Publikálás gombra kattintva (ellenőrzés után) megjelenik a recept az oldalon.
 
 
 ## Funkció-követelmény megfeleltetés
 ### Funkcionális követelmények megfeleltetése:
-- **Rendezés:** Jobb átláthatóság, népszerű sütemények előbbi megjelenítése 8/10
+- **Rendezés:** Jobb átláthatóság érdekében 8/10
 - **Nyomtatás:** A receptek egyszerű mobilitása érdekében 6/10
 - **Like:** A tetszés kinyilvánítására, illetve a rendezés segítésére 8/10
 - **Kép kiválasztása:** A recepthez tartozó eredmény, elkészített kép formájában 6/10
@@ -107,3 +122,4 @@ A jogosultságok tehát mindössze két fajta személyt különböztetnek meg; a
 - **PDF:** hordozható dokumentumformátum, képeket és formázott szöveget tartalmazó formátum
 - **formázott szöveg:** szöveg, ami írható **vastagon**, *dőlten* vagy ~~áthúzva~~.
 - **fejléc:** az oldal tetején található sáv
+- **bemenet:** a szövegdobozokba átadott információ

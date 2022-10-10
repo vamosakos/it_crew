@@ -2,7 +2,13 @@
 
 ## Áttekintés
 Cégünk terjeszkedni szeretne az internetes térben. Egy olyan internetes weboldal létrehozása a célunk, ami által bevonjuk az olvasóinkat a már meglévő és az elkövetkezendő recepteskönyveinkbe.
-Egy pályázat keretében indítjuk el az oldalt, ahol bárki számára elérhetővé válik az általuk különlegesnek vélt sütemény receptjeinek megosztása. A csak szimplán érdeklődők regisztráció nélkül is könnyedén tudnak böngészni a különféle sütemény receptek között. Továbbá egy egyszerű gombnyomással megoldható a receptek lementése/nyomtatása. A regisztrált felhasználóknak lehetősége van a különféle sütemény receptek feltöltésére, amelyet más felhasználók értékelni is tudnak egy "like" gomb segítségével. Később ezen likeok felhasználásával lehetőség nyílik rendezi népszerűség alapján az oldalon megjelenő recepteket. Ennek különlegessége pedig, hogy a hónap végén a legnépszerűbb sütemény receptjét felvisszük a következő kiadásunkba. Az weboldal nevének beszédesen a "sutippek.hu" (sütippek) címet képzeltük el.
+Egy pályázat keretében indítjuk el az oldalt, ahol bárki számára elérhetővé válik az általuk különlegesnek vélt sütemény receptjeinek megosztása. 
+A csak szimplán érdeklődők regisztráció nélkül is könnyedén tudnak böngészni a különféle sütemény receptek között. 
+Továbbá egy egyszerű gombnyomással megoldható a receptek lementése/nyomtatása. 
+A regisztrált felhasználóknak lehetősége van a különféle sütemény receptek feltöltésére, amelyet más felhasználók értékelni is tudnak egy "like" gomb segítségével. 
+Később a sütemények hozzáadásával lehetőség nyílik rendezi név alapján az oldalon megjelenő recepteket. 
+Az egész különlegessége pedig, hogy a hónap végén a legnépszerűbb sütemény receptjét felvisszük a következő kiadásunkba. 
+Az weboldal nevének beszédesen a "sutippek.hu" (sütippek) címet képzeltük el.
 
 
 ## Jelenlegi helyzet
@@ -27,8 +33,8 @@ A projekt célja az olvasóink bevonása a szezonális könyveink kiadásába é
 - **Bejelentkezés gomb:** felhasználónév és jelszó együttes megadásával beléphetünk a saját fiókunkba.
 - **Regisztrációs gomb:** az itt megadott adatainkkal kitöltve tudunk fiókot létrehozni.
 - **Kép kiválasztása:** az általunk, másoknak ajánlott süteményről készült képet lehetőségünk van feltölteni a recepet alatt.
-- **Like gomb/Kedvencekhez adás:** a kedvenc receptjeinket ezzel tudjuk megjelölni, majd később ez alapján rendezni a legördülő süteményeket.
-- **Rendezés:** lehetőséget kínál népszerűség alapján rendezni a recepteket.
+- **Like gomb/Kedvencekhez adás:** a kedvenc receptjeinket ezzel tudjuk megjelölni, majd később ez alapján választjuk ki a legnépszerűbb a legördülő süteményeket.
+- **Rendezés:** lehetőséget kínál rendezni a recepteket.
 - **Nyomtatás gomb:** nyomtatásra kész formátumban, PDF kiterjesztésben érhetjük el kedvenc sütemény receptjeinket.
 
 
@@ -67,19 +73,21 @@ Továbbá lehetőség lesz receptek kedvelésére, így az adott hónap végén 
 | Feltöltés | K3 | Recept feltöltése | 1.0 | A regisztrált felhasználóknak lehetőségük van a recept feltöltésére. Ezt a recept feltöltése helyen talált szövegdobozba felvitt gépelt karakterekkel tehető meg. |
 | Feltöltés | K4 | Kép feltöltése | 1.0 | A kép feltöltés, a recept feltöltésére használt kitöltött szövegdoboz alatt foglal helyet, ahol a felhasználó opcionálisan tölthet fel képet a már elkészíett süteményéről. |
 | Kedvelés | K5 | Like gomb | 1.0 | Minden recepthez hozzájárul egy gomb, melynek megnyomásával a tetszésüket fejezhetik ki regisztrált felhasználók. |
-| Rendezés | K6 | Rendezés | 1.0 | A rendezés gomb segítségével lehetőség van receptek rendezésére likeok / kedvelések szerint (Z-A) - csökkenően |
+| Rendezés | K6 | Rendezés | 1.0 | A rendezés gomb segítségével lehetőség van receptek rendezésére név szerint (A-Z) - növekvően |
 | Nyomtatás | K7 | Nyomtatás | 1.0 | A nyomtatás gomb lehetőséget nyújt az adott képernyőn elhelyezkedő receptek nyomtatására, letöltésére PDF formátumban. |
 
 
 ## Riportok
 **Q:** Milyen weboldalt képzelt el? 
 
-**A:** Egy olyan weboldalra lenne szükségünk, ahol a kiadónk által kiadott süteményeskönyv receptjeit a látogatók el tudják írni, illetve a felhasználók is meg tudják osztani a saját süteményes receptjeiket is egy regisztrációt követően). A felhasználók tudnak szavazni a mások által beküldött receptekre is és a legtöbb szavazatot elért recept bekerül a következő kiadásunkba.
+**A:** Egy olyan weboldalra lenne szükségünk, ahol a kiadónk által kiadott süteményeskönyv receptjeit a látogatók el tudják írni, illetve a felhasználók is meg tudják osztani a saját süteményes receptjeiket is egy regisztrációt követően). 
+A felhasználók tudnak szavazni a mások által beküldött receptekre is és a legtöbb szavazatot elért recept bekerül a következő kiadásunkba.
 
 
 **Q:** Az interneten már számos nagy receptoldal létezik. Miért szeretne még egy oldalt létrehozni? 
 
-**A:** A kiadónk története nagymúltú és számos ismert receptkönyv szerepel a listánkon, aminek receptjeit ismert és díjnyertes cukrászok írták. Ezeket a recepteket szeretnénk digitálisan, a modern kornak megfelelő módon is elérhetővé tenni a nagyközönség számára, illetve szeretnénk lehetőséget biztosítani a fel nem fedezett cukrászmesterek számára a tudásuk megmutatására. 
+**A:** A kiadónk története nagymúltú és számos ismert receptkönyv szerepel a listánkon, aminek receptjeit ismert és díjnyertes cukrászok írták. 
+Ezeket a recepteket szeretnénk digitálisan, a modern kornak megfelelő módon is elérhetővé tenni a nagyközönség számára, illetve szeretnénk lehetőséget biztosítani a fel nem fedezett cukrászmesterek számára a tudásuk megmutatására. 
 
 
 **Q:** Tervez az oldalnak asztali vagy telefonos alkalmazást?
