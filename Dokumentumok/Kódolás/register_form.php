@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Regisztráció</title>
 </head>
 <body>
     <h1>Regisztráció</h1>
+<div>
     <table class="logreg">
         <form action="register.php" method="POST" enctype="multipart/form-data">
             <tr>
@@ -30,5 +33,7 @@
             </tr>
         </form>
     </table>
+</div>  
+
 </body>
 </html>

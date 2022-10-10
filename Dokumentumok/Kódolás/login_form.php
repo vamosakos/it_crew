@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    
+   <link rel="stylesheet" type="text/css" href="bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Bejelentkezés</title>
 </head>
 <body>
-    <h1>Bejelentkezés</h1>
+<h1>Bejelentkezés</h1>
     <table class="logreg">
         <form action="login.php" method="post">
             <tr>
@@ -18,9 +20,10 @@
                 <td><input type="password" name="jelszo"></td>
             </tr>
             <tr>
-                <td><input type="submit" value="Bejelentkezek" name="login"></td>
+                <td><input type="submit" value="Bejelentkezés" name="login"></td>
             </tr>
         </form>
     </table>
+
 </body>
 </html>

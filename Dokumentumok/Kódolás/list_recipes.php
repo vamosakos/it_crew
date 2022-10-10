@@ -33,7 +33,7 @@
     function getImageTag($pictureByte)
     {
         $kep = base64_encode($pictureByte);
-        return "<img style=\"width:128px;height:128px;\" src=\"data:image/jpg;charset=utf8;base64,$kep\"/>";
+        return "<div class='recipesimg'><img style=\"width:128px;height:128px;\" src=\"data:image/jpg;charset=utf8;base64,$kep\"/></div>";
     }
 ?>
 
@@ -44,13 +44,13 @@
     <form action="" method="GET">
         <tr>
             <td colspan=2><input type="text" name="keresendo">
-            <button type="submit" name="kereses">Keresés</button></td>
+            <button type="submit" class="btn btn-primary" name="kereses">Keresés</button></td>
         </tr>
     </form>
     <form action="" method="GET">
         <tr>    
-            <td><button type="submit" name="rendezes" value="name">Rendezés</button></td>
-            <td><button onclick="display()">Oldal nyomtatása</button></td>
+            <td><button type="submit" class="btn btn-primary" name="rendezes" value="name">Rendezés</button></td>
+            <td><button class="btn btn-danger" onclick="display()">Oldal nyomtatása</button></td>
             <script>
             function display() {
             window.print();
@@ -64,26 +64,26 @@
 
     <br><table class="recipes">
         <tr>
-            <td colspan="2">
-                <?php echo getImageTag($recipe[3]); ?>
-            </td>
-        <tr>
-        <tr>
-            <td>Feltöltő</td>
+            <td class="bold">Feltöltő</td>
             <td> <?= $recipe[4] ?> </td>
         </tr>
         <tr>
-            <td>Név</td>
+            <td class="bold">Név</td>
             <td> <?= $recipe[1] ?></td>
         </tr>
         <tr>
-            <td>Leírás</td>
+            <td class="bold">Leírás</td>
             <td> <?= $recipe[2] ?></td>
         </tr>
         <tr>
-            <td>Kedvelések: </td>
+            <td class="bold">Kedvelések: </td>
             <td> <?= likeLekerdezes($con, $recipe[0]) ?></td>
         </tr>
+        <tr>
+            <td>
+            <?php echo getImageTag($recipe[3]); ?>
+</td>
+</tr>
         <tr>
             <td>
                 <?php
@@ -94,9 +94,9 @@
                         $result = mysqli_fetch_row($results);
 
                         if($result != NULL) {
-                            echo '<form action="remove_favorite.php" method="POST">
+                            echo '<form class="like" action="remove_favorite.php" method="POST">
                             <input type="hidden" value="'.$recipe[0].'" name="recipe_id">
-                            <button type="submit">Kedvelés visszavonása</button>
+                            <button class="btn btn-danger" type="submit">Kedvelés visszavonása</button>
                         </form>';
                         }
                         else {
@@ -106,7 +106,7 @@
                             $result = mysqli_fetch_all($results);
                             echo '<form action="add_favorite.php" method="POST">
                             <input type="hidden" value="'.$recipe[0].'" name="recipe_id">
-                            <button type="submit">Kedvelés</button>
+                            <button class="btn btn-primary" type="submit">Kedvelés</button>
                             </form>';
                         }
                     }
@@ -114,5 +114,8 @@
             <td>
         </tr>
     </table>
+    <div>
+                
+                </div>
     <br><br>
 <?php endforeach; ?>
