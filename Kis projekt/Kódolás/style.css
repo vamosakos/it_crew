@@ -1,0 +1,24 @@
+html{height: 100%; width: 100%;}
+body{background-image: url("bg.jpg"); background-attachment: fixed; font-family: 'Franklin Gothic Medium'; height: 100%; width: 100%;}
+.menu h1{color:rgb(245, 232, 214);}
+h1{ text-align: center; color:rgb(245, 232, 214)}
+.logreg{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(245, 232, 214, 0.719);
+    box-shadow: 6px 6px;} 
+.recipes{margin:auto; display: flex; border: 5px solid #ad7954; border-radius: 3px; width: 70%; background-color: rgba(245, 232, 214, 0.719); box-shadow: 8px 6px;}
+.recipesimg {position: relative;} 
+nav{background-color: #795134dc;} 
+.bold{font-weight: bold;}
+.respond{font-size: 45px; text-align: center; color: aliceblue;}
+.kereses{margin: auto;}

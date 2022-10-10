@@ -12,15 +12,16 @@
     <table class="logreg">
         <form action="login.php" method="post">
             <tr>
-                <td>Felhasználónév:</td>
+                <td class="bold">Felhasználónév:</td>
                 <td><input type="text" name="felhasznalonev"></td>
             </tr>
             <tr>
-                <td>Jelszó:</td>
+                <td class="bold">Jelszó:</td>
                 <td><input type="password" name="jelszo"></td>
             </tr>
             <tr>
-                <td><input type="submit" value="Bejelentkezés" name="login"></td>
+                <td></td>
+                <td><input class="btn btn-primary" type="submit" value="Bejelentkezés" name="login"></td>
             </tr>
         </form>
     </table>
